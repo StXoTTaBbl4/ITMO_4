@@ -1,4 +1,6 @@
-.idea/
-node_modules/
-
+venv
+*.pyc
 .env
+instance
+report
+images
