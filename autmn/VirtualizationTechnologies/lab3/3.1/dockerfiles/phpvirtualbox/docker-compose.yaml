@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  phpvirtualbox:
+    image: bamboocz/phpvirtualbox:latest
+    container_name: phpvirtualbox
+    ports:
+      - "8080:80"
+    environment:
+      - ID_HOSTPORT=172.17.0.1:18083 
+      - ID_NAME=glados 
+      - ID_USER=glados 
+      - ID_PW="Ltvjys!1" 
+    restart: unless-stopped
