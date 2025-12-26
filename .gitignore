@@ -59,3 +59,5 @@ cmake-build-debug
 *.out
 *.app
 
+sharedSpace/
+
